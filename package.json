@@ -1,12 +1,12 @@
 {
-  "name": "kaisen-md",
+  "name": "ROVER-XD",
   "version": "1.0.0",
-  "description": "A WhatsApp Bot Created By KAISEN",
+  "description": "A WhatsApp Bot Created By HACKLINK TECH.INC",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name KAISEN-MD",
-    "stop": "pm2 stop KAISEN-MD",
-    "restart": "pm2 restart KAISEN-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name ROVER-XD",
+    "stop": "pm2 stop ROVER-XD",
+    "restart": "pm2 restart ROVER-XD"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
