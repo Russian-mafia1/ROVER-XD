@@ -15,9 +15,9 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW 👻
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "KAISEN",
+BOT_NAME: process.env.BOT_NAME || "ROVER-XD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "KAISEN",
+STICKER_NAME: process.env.STICKER_NAME || "ROVER",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -25,9 +25,9 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "917003816486",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "254769677305",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "KAISEN",
+OWNER_NAME: process.env.OWNER_NAME || "HACKLINK TECH.INC",
 // add bot owner name 
 ADMIN_STATUS: process.env.ADMIN_STATUS || "false",
 // make true to know who dismiss or promoted a member in group
@@ -35,7 +35,7 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // maks true for always online 
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘσωєʀє∂ ву 𝖐𝚊𝚒𝚜𝖊𝖓 𝙼ԃ⎯꯭̽💀*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘσωєʀє∂ ву HACKLINK TECH.INC⎯꯭̽💀*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/fmshet.mp4",
 // add img for alive msg menu photo url
@@ -67,7 +67,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "917003816486",
+DEV: process.env.DEV || "254769677305",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
