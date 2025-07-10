@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   const mode = config.MODE
-  const ownerNumber = ['917003816486']
+  const ownerNumber = ['254769677305']
   const online = config.ALWAYS_ONLINE
 
 
@@ -70,7 +70,7 @@ const {
 
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("KAISEN~", '');
+const sessdata = config.SESSION_ID.replace("Hacklink~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -130,10 +130,10 @@ const port = process.env.PORT || 9090;
 *┃✧ 𝐈𝐍𝐂𝐋𝐔𝐃𝐄𝐒 𝐅𝐔𝐍, 𝐆𝐀𝐌𝐄, 𝐒𝐓𝐘𝐋𝐄*
  ╰━━━━━━━━━━━━━━━━━━╯
 
-*✦ 𝗘𝗡𝗚𝗜𝗡𝗘      : 𝐊ą𝐢𝐬𝐞𝐧-𝐌𝐃
-*✦ 𝗚𝗜𝗧𝗛𝗨𝗕*     : [🔗 https://github.com/sumon9836/KAISEN-MD.git]
-*✦ 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 : ꜱᴜᴍᴏɴ × ꜱᴀᴍɪɴ*
-`;    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/hwl3d4.jpg` }, caption: up })
+*✦ 𝗘𝗡𝗚𝗜𝗡𝗘      : ROVER-XD
+*✦ 𝗚𝗜𝗧𝗛𝗨𝗕*     : [🔗 https://github.com/Russian-mafia1/ROVER-XD.git]
+*✦ 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 : HACKLINK TECH.INC*
+`;    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/zpjh78.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -783,8 +783,8 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
 }
   
   app.get("/", (req, res) => {
-  res.send("KAISEN MD STARTED ✅");
-  });
+  res.send("ROVER-XD STARTED ✅");
+  }); 
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
   connectToWA()
