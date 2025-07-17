@@ -63,7 +63,7 @@ cmd({//
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '',
-                    newsletterName: '𝖐𝚊𝚒𝚜𝖊𝖓 𝙼ԃ⎯꯭̽💀  𝐀𝐈 🤖',
+                    newsletterName: 'HACKLINK TECH.INC  𝐀𝐈 🤖',
                     serverMessageId: 143
                 }
             }
@@ -138,7 +138,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '',
-                    newsletterName: ' 🤖',
+                    newsletterName: ' HACKLINK TECH.INC AI🤖',
                     serverMessageId: 143
                 }
             }
