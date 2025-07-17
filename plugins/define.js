@@ -31,7 +31,7 @@ const wordInfo = `
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-*MADE WITH ♥ 𝖐𝚊𝚒𝚜𝖊𝖓 𝙼ԃ⎯꯭̽👀*`;
+*MADE WITH ♥ ROVER-XD👀*`;
 
                                  return reply(wordInfo);
                              } catch (e) {
