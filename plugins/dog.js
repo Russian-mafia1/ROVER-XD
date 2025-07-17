@@ -16,7 +16,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.message }, caption: '𝐊𝐚𝐢𝐬𝐞𝐧-𝐦𝐝 DOWNLOAD DOG 🐕 PICS\n\n\n> *🐕BY 𝐊𝐚𝐢𝐬𝐞𝐧-𝐦𝐝🐕*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.message }, caption: 'ROVER-XD DOWNLOAD DOG 🐕 PICS\n\n\n> *🐕BY ROVER-XD🐕*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`Error Fetching Dog Image🤕: ${e.message}`);
@@ -37,7 +37,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = response.data;
 
         // Send the cat image with a caption
-        await conn.sendMessage(from, { image: { url: data[0].url }, caption: '𝐊𝐚𝐢𝐬𝐞𝐧-𝐦𝐝 DOWNLOAD CAT 🐈 PICS\n\n> *🐈BY 𝐊𝐚𝐢𝐬𝐞𝐧-𝐦𝐝🐈*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data[0].url }, caption: 'ROVER-XD DOWNLOAD CAT 🐈 PICS\n\n> *🐈BY ROVER-XD🐈*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`Error Fetching Cat Image 🤕: ${e.message}`);
