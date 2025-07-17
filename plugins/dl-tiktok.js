@@ -49,21 +49,21 @@ cmd({
     // Send the video with details
     await conn.sendMessage(from, {
       video: videoBuffer,
-      caption: `*𝖐𝚊𝚒𝚜𝖊𝖓 𝙼ԃ⎯꯭̽👀  𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃*\n\n` +
+      caption: `*ROVER-XD👀  𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃*\n\n` +
         `🔖 *ᴛɪᴛʟᴇ*: ${title || "No title"}\n` +
         `👤 *ᴀᴜᴛʜᴏʀ*: ${author.nickname}\n` +
         `♥️ *ʟɪᴋᴇs*: ${metrics.digg_count}\n` +
         `💬 *ᴄᴏᴍᴍᴇɴᴛs*: ${metrics.comment_count}\n` +
         `♻️ *sʜᴀʀᴇs*: ${metrics.share_count}\n` +
         `📥 *ᴅᴏᴡɴʟᴏᴀᴅs*: ${metrics.download_count}\n\n` +
-        `> *© ᴘσωєʀє∂ ву 𝖐𝚊𝚒𝚜𝖊𝖓 𝙼ԃ⎯꯭̽💀*`,
+        `>  © Powered by ROVER-XD💀*`,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '',
-          newsletterName: '𝖐𝚊𝚒𝚜𝖊𝖓 𝙼ԃ⎯꯭̽👀',
+          newsletterName: 'HACKLINK TECH.INC👀',
             serverMessageId: 143
         }
       }
