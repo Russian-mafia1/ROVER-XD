@@ -3,7 +3,7 @@ const { cmd } = require("../command");
 const moment = require("moment");
 
 let botStartTime = Date.now(); // Enregistrement de l'heure de démarrage du bot
-const ALIVE_IMG = "https://files.catbox.moe/6f42sf.jpg"; // Assurez-vous que cette URL est valide love 
+const ALIVE_IMG = "https://files.catbox.moe/m9ox7r.jpg"; // Assurez-vous que cette URL est valide love 
 
 cmd({
     pattern: "alive",
@@ -23,13 +23,13 @@ cmd({
         const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
 
         const formattedInfo = `
-🌟 *𝗸𝗮𝗶𝘀𝗲𝗻 𝗺𝗱 STATUS* 🌟
+🌟 *ROVER-XD STATUS* 🌟
 Hey 👋🏻 ${pushname}
 🕒 *Time*: ${currentTime}
 📅 *Date*: ${currentDate}
 ⏳ *Uptime*: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds
 
-*🤖sᴛᴀᴛᴜs*: *𝖐𝖆𝖎𝖘𝖊𝖓-ᴍᴅ ᴀʟɪᴠᴇ ᴀɴᴅ ʀᴇᴀᴅʏ*
+*🤖sᴛᴀᴛᴜs*: *ROVER-XD ᴀʟɪᴠᴇ ᴀɴᴅ ʀᴇᴀᴅʏ*
 
 *🤍ᴍᴀᴅᴇ ᴡɪᴛʜ ʟᴏᴠᴇ*
         `.trim();
