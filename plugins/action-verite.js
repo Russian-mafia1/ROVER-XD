@@ -40,11 +40,11 @@ cmd({//
       return reply(`*Usage:* ${command} <prompt>\n\n*Example:* ${command} cat`);
     }
 
-    await reply('> *KAISEN-MD PROCESSING IMAGE...*');
+    await reply('> *ROVER-XD PROCESSING IMAGE...*');
 
     const apiUrl = `https://apis.davidcyriltech.my.id/flux?prompt=${encodeURIComponent(text)}`;
 
-    await conn.sendMessage(m.chat, { image: { url: apiUrl }, caption: `🎨 *FLUX IMAGE GENERATOR*\n\n📄 *PROMPT:* ${text}\n\n> © ᴘσωєʀє∂ ву 𝖐𝚊𝚒𝚜𝖊𝖓 𝙼ԃ⎯꯭̽💀` }, { quoted: m });
+    await conn.sendMessage(m.chat, { image: { url: apiUrl }, caption: `🎨 *FLUX IMAGE GENERATOR*\n\n📄 *PROMPT:* ${text}\n\n> © Powered by ROVER-XD💀` }, { quoted: m });
   } catch (error) {
     console.error('Error in Flux command:', error);
     reply(`*AN ERROR OCCURRED!! MESSAGE :*\n\n> ${error.message}`);
